@@ -1,15 +1,11 @@
-import { useReducer } from "react";
+import PhoneNumberForm from "./Component/Form/form";
 
 
 export function App() {
 
-  const [checked, setChecked] = useReducer((checked) =>  !checked , false)
-
   return (
     <>
-      <h1>Hello</h1>
-      <label >{checked ? "selected" : "not selected"}</label>
-      <input type="checkbox" value={checked} onChange={setChecked}/>
+      <PhoneNumberForm />
     </>
   );
 }
