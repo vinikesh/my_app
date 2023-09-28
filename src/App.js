@@ -1,17 +1,21 @@
-import PhoneNumberForm from "./Component/Form/form";
-
+// import AreaChartPlot from "./Component/Charts/Areachart";
+// import LineChartPlot from "./Component/Charts/Linechart";
+import Flow from "./Component/Flows/reactflow";
+import "./style.css"
 
 export function App() {
-
+  
   return (
     <>
-      <PhoneNumberForm />
+      {/* <LineChartPlot /> */}
+      {/* <AreaChartPlot /> */}
+      <Flow />
     </>
   );
 }
 
-export function multiplyByTwo(a){
-  return a * 2;
-}
+// export function multiplyByTwo(a) {
+//   return a * 2;
+// }
 
 export default App;
